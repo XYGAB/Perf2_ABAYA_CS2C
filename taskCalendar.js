@@ -1,6 +1,6 @@
-let weekdays = "Sunday";
+const prompt = require('prompt-sync')();
 
-console.log("Enter days:", weekdays);
+let weekdays =  prompt("Please enter a day of the week:");
 
 //using switch
 switch (weekdays) {
