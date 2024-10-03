@@ -1,7 +1,7 @@
 //if else if
 const prompt = require('prompt-sync')();
 
-let grade = prompt("Enter your Age:");
+let grade = prompt("Enter your Grade:");
 
 //using if else if to determine the entered grade
 if (grade>=90){
