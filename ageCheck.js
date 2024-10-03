@@ -1,7 +1,8 @@
 // If Statement
-let age = 21;
+const prompt = require('prompt-sync')();
 
-console.log("Enter Your age:", age);
+let age = prompt("Enter your Age:");
+
 //using if and else if 
 if (age>=20){
     console.log("You are an adult.");
